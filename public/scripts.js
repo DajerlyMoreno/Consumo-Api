@@ -37,15 +37,15 @@ document.addEventListener('DOMContentLoaded', () => {
     
         const tr = document.createElement('tr');
             
-        const nameCell = `<td>${character.name}</td>`;
-        const heightCell = `<td>${character.height}</td>`;
-        const hairColorCell = `<td>${character.hair_color}</td>`;
-        const skinColorCell = `<td>${character.skin_color}</td>`;
-        const eyeColorCell = `<td>${character.eye_color}</td>`;
-        const birthYearCell = `<td>${character.birth_year}</td>`;
-        const genderCell = `<td>${character.gender}</td>`;
-        const speciesCell = `<td>${character.species}</td>`;
-        const homeworldCell = `<td>${character.homeworld}</td>`;
+        const nameCell = `<td data-label>${character.name}</td>`;
+        const heightCell = `<td data-label>${character.height}</td>`;
+        const hairColorCell = `<td data-label>${character.hair_color}</td>`;
+        const skinColorCell = `<td data-label>${character.skin_color}</td>`;
+        const eyeColorCell = `<td data-label>${character.eye_color}</td>`;
+        const birthYearCell = `<td data-label>${character.birth_year}</td>`;
+        const genderCell = `<td data-label>${character.gender}</td>`;
+        const speciesCell = `<td data-label>${character.species}</td>`;
+        const homeworldCell = `<td data-label>${character.homeworld}</td>`;
         
         tr.innerHTML = nameCell + heightCell + hairColorCell + skinColorCell + eyeColorCell + birthYearCell + genderCell + speciesCell + homeworldCell;
         
