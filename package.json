@@ -1,0 +1,26 @@
+{
+  "name": "parcialjaz2",
+  "version": "1.0.0",
+  "description": "consumo de apis Parcial 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DajerlyMoreno/Consumo-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DajerlyMoreno/Consumo-Api/issues"
+  },
+  "homepage": "https://github.com/DajerlyMoreno/Consumo-Api#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
