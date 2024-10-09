@@ -1,11 +1,25 @@
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
 }
-table, th, td {
-    border: 1px solid black;
+
+thead {
+    background-color: #007BFF;
+    color: white;
 }
+
 th, td {
-    padding: 8px;
+    padding: 10px;
     text-align: left;
+    border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }

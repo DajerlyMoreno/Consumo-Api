@@ -90,6 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
+
+    viewAllBtn.addEventListener('click', async () => {
+        await getAllCharacters();
+    });
  
     getAllCharacters(); 
  });
